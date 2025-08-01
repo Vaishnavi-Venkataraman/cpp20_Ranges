@@ -1,6 +1,6 @@
 CXX = g++-13
 CXXFLAGS = -std=c++23
-TARGETS = adaptors alg1 alg2 findif rangesort normalsort
+TARGETS = normalsort rangesort findif findlast alg1 alg2 adaptors projection insert_range assign_range append_range prepend_range
 
 all: $(TARGETS)
 
@@ -10,5 +10,5 @@ all: $(TARGETS)
 run-%: %
 	./$<
 
-clean:
+clear:
 	rm -f $(TARGETS)
