@@ -15,3 +15,8 @@ This repository contains practical examples and mini-experiments demonstrating t
 ```bash
 g++-13 -std=c++23 -o <filename> <filename>.cpp
 ./<filename>
+
+#using Makefile
+make
+./<filename>
+
